@@ -56,7 +56,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
+
 group :production do
 gem 'pg'
-gem 'net-http'
+
 end
